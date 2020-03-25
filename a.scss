@@ -1,0 +1,11 @@
+.a {
+  background-color: pink;
+  // hmr warns: do not know how to reload themselves
+  // and style won't update if not fully reload the page
+}
+
+:local(.aa) {
+  background-color: khaki;
+  // hmr warns: do not know how to reload themselves
+  // and style won't update if not fully reload the page
+}
